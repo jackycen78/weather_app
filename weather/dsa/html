@@ -1,0 +1,42 @@
+<div id='hourlyChild1' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild2' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild3' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild4' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild5' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild6' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>
+                <div id='hourlyChild7' class='hourlyChild'> 
+                    <div class='forecastTime'> 12:00 PM</div>
+                    <div class='forecastTemp'> </div>
+                    <div class='forecastImage'> </div>
+                    <div class='forecastPrecipitation'> </div>
+                </div>

@@ -1,0 +1,169 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-image: url('background.jpg');
+}
+
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerChild{
+    margin: 5%;
+}
+
+#conditionImage{
+    display: inline;
+    transform: scale(1.3);
+    margin-right: 5%;
+}
+
+#temperature{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#condition, #origin{
+    font-size: 1.5rem;
+    margin:2%;
+}
+
+#condition{
+    text-transform: capitalize;
+}
+
+#localTime, #localDate{
+    margin: 2%;
+    font-size: 0.9rem;
+}
+
+.desTest{
+    font-size: 0.9rem;
+}
+
+#feelsLike, #windSpeed, #humidity, #precipitation{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+#searchContainer{
+    display: inline-block;
+    margin-top: 5%;
+    border-bottom: 1px solid black;
+}
+
+#locationInput{
+    border: none;
+    background: none;
+}
+
+#locationInput:focus{
+    outline: none;
+}
+
+#locationSearch{
+    border: none;
+    background: none;
+    transform: rotate(100deg) scale(1.3);
+}
+
+#locationSearch:hover{
+    cursor: pointer;
+}
+
+#errorText{
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 1%;
+}
+
+.bottomContainer{
+    position: absolute;
+    bottom: 5%;
+    margin-left: 1%;
+    width: 97%;
+}
+
+#todayButton{
+    margin-left: 7%;
+}
+
+.timeButton{
+    margin-left:2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: none;
+    font-size: 1.5rem;
+    padding: 1%;
+    pointer-events: none;
+}
+
+.timeButtonHide{
+    margin-left:2%;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.timeButtonHide:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.bottomBottomContainer{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.bottomButton{
+    width: 5%;
+    font-size: 3rem;
+    border: none;
+    background: none;
+}
+
+#bottomLeftButton:hover{
+    cursor: pointer;
+    transform: rotate(180deg) scaleY(1) scale(1.3);
+}
+
+#bottomRightButton:hover{
+    cursor: pointer;
+    transform: scaleY(1) scale(1.3);
+}
+
+#bottomLeftButton{
+    transform: rotate(180deg) scaleY(1);
+}
+
+#bottomRightButton{
+    transform: scaleY(1);
+}
+
+.hourlyContainer{
+    display: flex;
+    min-height: 125px;
+    width: 90%;
+    margin: 0 1% 0 1%;
+    text-align: center;
+}
+
+.hourlyChild{
+    flex: 1;
+    max-width: 14.3%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}

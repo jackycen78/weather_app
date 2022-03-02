@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+   
+    <div class='topContainer'>
+        
+        <div class='containerChild leftContainer'>
+            <img id='conditionImage' alt="">
+            <div id='temperature'></div>
+            <div id='condition'> </div>
+            <div id='origin'></div>
+            <div id='localDate'></div>
+            <div id='localTime'></div>
+            <div id='searchContainer'>
+                <input type="text" id='locationInput' placeholder="Location" > <button id='locationSearch'> &#9740  </button>
+            </div>
+            <div id='errorText' style='display: none'> * Please enter a valid location. </div>
+        </div>
+
+        <div class='containerChild rightContainer'>
+            <span class='desTest'> Feels Like </span> 
+            <div id='feelsLike'> </div>
+            <span class='desTest'> Wind Speed </span>
+            <div id='windSpeed'></div>
+            <span class='desTest'> Humidity </span>
+            <div id='humidity'></div>
+            <span class='desTest'>  Precipitation </span>
+            <div id='precipitation'></div>
+        </div>
+
+    </div>
+    <div class='bottomContainer'>
+        <button id='todayButton' class='timeButtonHide' > </button>
+        <button id='nextDayButton' class='timeButtonHide'>  </button>
+        <button id='nextNextDayButton' class='timeButtonHide'> </button>
+
+        <div class='bottomBottomContainer'>
+            <button class='bottomButton' id='bottomLeftButton'> &#9655; </button>
+            <div id='hourlyContainer' class='hourlyContainer'> </div>
+            <button class='bottomButton' id='bottomRightButton'> &#9655; </button>
+        <div>
+
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
